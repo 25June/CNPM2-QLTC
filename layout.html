@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<link rel="stylesheet" href="A:\Study\SelfLearning\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="A:\Study\SelfLearning\Bootstrap\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+  <style type="text/css">
+  	#color-blend1{
+  		background-color: #768FDf;
+  	}
+  	#color-blend2{
+  		background-color: #ec7b7d;
+  	}
+  	#color-blend3{
+  		background-color: #FDC168;
+  	}
+  	#color-blend4{
+  		background-color: #91d1be;
+  	}
+  </style>
+</head>
+<body>
+	<div class="container">
+		<div class="row" id="header">
+			<div class="col-lg-6" id="color-blend1">
+				<img src="img/Logo.png">
+			</div>
+			<div class="col-lg-6" id="color-blend4">
+				<div class="navbar navbar-right">
+					<ul class="nav navbar-nav">
+						<li>Info + login + logout</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="body-content">
+			<div class="col-lg-3" id="color-blend2">
+				<div class="panel-group">
+				    <div class="panel panel-success">
+					    <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a data-toggle="collapse" href="#collapse1">Menu 1</a>
+					        </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					        <div class="panel-body">Submenu 1.1</div>
+					        <div class="panel-body">Submenu 1.2</div>
+					    </div>
+
+					    <div class="panel-heading">	
+						    <h4 class="panel-title">
+						        <a data-toggle="collapse" href="#collapse2">Menu 2</a>
+						    </h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse">
+						    <div class="panel-body">Submenu 2.1</div>
+						    <div class="panel-body">Submenu 2.2</div>
+						</div>
+
+					    <div class="panel-heading">
+					      	<h4 class="panel-title">
+					           <a data-toggle="collapse" href="#collapse3">Menu 3</a>
+					        </h4>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse">
+					       	<div class="panel-body">Submenu 3.1</div>
+					       	<div class="panel-body">Submenu 3.2</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-9" id="color-blend3">Nội Dung</div>
+		</div>
+		<div class="row" id="footer">
+			<div class="col-lg-4" id="color-blend1">Hệ Thống Các Chi Nhánh</div>
+			<div class="col-lg-4" id="color-blend2">Phản Ánh Dịch Vụ</div>
+			<div class="col-lg-4" id="color-blend3">Liện hệ</div>
+		</div>
+	</div>
+</body>
+</html>
